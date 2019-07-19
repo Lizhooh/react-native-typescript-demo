@@ -1,0 +1,55 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "module": "esnext",
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "lib",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "strictNullChecks": false,
+        "noImplicitThis": false,
+        "sourceMap": true,
+        "baseUrl": "src",
+        "rootDir": ".",
+        "jsx": "react",
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "allowUnusedLabels": true,
+        "esModuleInterop": true,
+        "locale": "zh-CN",
+        "typeRoots": [
+            "node_modules/@types",
+            "global.d.ts"
+        ],
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": false,
+        "noEmit": true,
+        "paths": {
+            "@/router": ["router/index"],
+            "@/routes": ["routes/index"],
+            "@/views/*": ["views/*"]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "build"
+    ],
+    "compileOnSave": false,
+    "include": [
+        "src",
+        "global.d.ts"
+    ]
+}
